@@ -66,6 +66,7 @@ export function LineGraphChart(props) {
           >
             <CartesianGrid vertical={false} />
 
+
             <XAxis
               dataKey="percentage"  
               ticks={xAxisTicks}
