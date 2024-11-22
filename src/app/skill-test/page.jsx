@@ -8,7 +8,7 @@ import { SyllabusWiseAnalysis } from '@/components/syllabus-wise-analysis'
 import { Card } from '@/components/ui/card'
 import React, { useEffect } from 'react'
 
-export default function page() {
+export default function Page() {
   const [data, setData] = React.useState({
     rank: 1,
     percentile: 70,
