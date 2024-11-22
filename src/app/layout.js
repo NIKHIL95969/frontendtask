@@ -7,7 +7,7 @@ import HeaderMobile from "@/components/header-mobile";
 import MarginWidthWrapper from "@/components/margin-width-wrapper";
 import PageWrapper from "@/components/page-wrapper";
 import SideNav from "@/components/side-nav";
-
+import { redirect } from "next/navigation";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -25,6 +25,8 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
+
   return (
     <html lang="en">
       <body

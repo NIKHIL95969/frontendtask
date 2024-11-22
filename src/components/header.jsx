@@ -15,6 +15,7 @@ import avatarimg from '../asset/avatarimg.png';
 const Header = () => {
   const scrolled = useScroll(5);
   const selectedLayout = useSelectedLayoutSegment();
+  
 
   return (
     <div
